@@ -16,9 +16,16 @@ public class NewTestJava {
      */
     public static void main(String[] args) {
         int c = 9;
-        for (int i = 0; i < 10; i++) {
-            System.out.println(c++);
+        int p = 1;
+        int o = 9;
+        int max = 0;
+        for (int i = 0; i < 11; i++) {
+            System.out.println(c + (p++) +"xp");
+            max = c + p;
         }
-    }
+        if (max > 18) {
+            System.out.println("LvL UP");
+        }
 
+    }
 }
